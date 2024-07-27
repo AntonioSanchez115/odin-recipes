@@ -1,10 +1,22 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    /* border: 2px solid greenyellow; */
 }
 
 body {
     background-color: #c44545;
+}
+
+.main-container {
+    /* border: 10px solid black; */
+    display: grid;
+    place-items: center;
+}
+
+.directions {
+    /* border: 2px solid blue; */
+    margin: 0 25%;
 }
 
 h1, h2, h3 {
